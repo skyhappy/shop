@@ -7,7 +7,7 @@ import com.ispmj.base.vo.BaseModel;
  *@date 2017-05-10 
  *@des 商品VO**/
 public class Customer extends BaseModel {
-	private int  uuid;//生成序列
+	
 	private String	 customerId;//客户id
 	private String pwd;	//客户密码
 	private String showName;//显示昵称
@@ -16,12 +16,7 @@ public class Customer extends BaseModel {
 	private String email;//客户邮箱
 	private String card;//客户身份证
 	private String registerTime;//注册时间
-	public int getUuid() {
-		return uuid;
-	}
-	public void setUuid(int uuid) {
-		this.uuid = uuid;
-	}
+
 	public String getCustomerId() {
 		return customerId;
 	}
@@ -70,26 +65,7 @@ public class Customer extends BaseModel {
 	public void setRegisterTime(String registerTime) {
 		this.registerTime = registerTime;
 	}
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + uuid;
-		return result;
-	}
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Customer other = (Customer) obj;
-		if (uuid != other.uuid)
-			return false;
-		return true;
-	}
+
 	public Customer(String customerId, String pwd, String showName, String trueName, String tel, String email,
 			String card, String registerTime) {
 		super();
