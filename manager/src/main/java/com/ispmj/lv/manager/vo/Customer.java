@@ -1,10 +1,12 @@
 package com.ispmj.lv.manager.vo;
 
+import com.ispmj.base.vo.BaseModel;
+
 /**
  *@author piaomj *
  *@date 2017-05-10 
  *@des 商品VO**/
-public class Customer  {
+public class Customer extends BaseModel {
 	private int  uuid;//生成序列
 	private String	 customerId;//客户id
 	private String pwd;	//客户密码
