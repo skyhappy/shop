@@ -4,14 +4,14 @@ import java.util.Collections;
 import java.util.List;
 
 public class Page<E> implements java.io.Serializable{
-	private int oldNowPage = 0;
+	private int oldNowPage = 0;//老的页面
 	
-	private int pageShow = 2; 
-	private int totalPage;
-	private int totalCount;
-	private int start;
-	private int nowPage;
-	private List<E> result = Collections.emptyList();
+	private int pageShow = 5; //分页条数
+	private int totalPage;//总计页面
+	private int totalCount;	//总计条数
+	private int start;//分页开始值
+	private int nowPage;//当前页面
+	private List<E> result = Collections.emptyList();//分页集合
 	
 	public int getOldNowPage(){
 		return this.oldNowPage;

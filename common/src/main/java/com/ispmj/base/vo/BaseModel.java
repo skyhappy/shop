@@ -1,7 +1,7 @@
 package com.ispmj.base.vo;
 
 import com.ispmj.base.pageutil.Page;
-
+/**将公共部分提取，在baseModel 里面包一个配置 用在分页上面*/
 public class BaseModel<M> {
 	private int uuid;
 	

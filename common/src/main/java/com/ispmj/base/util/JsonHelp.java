@@ -22,6 +22,7 @@ public class JsonHelp {
 	}
 	/**
 	 * json转对象*/
+	@SuppressWarnings("unchecked")
 	public static Object str2Object(String str,Class cls){
 		Object retObj = null;
 		ObjectMapper mapper = new ObjectMapper();

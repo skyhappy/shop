@@ -1,8 +1,9 @@
 C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\vo\Customer.java
 C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\service\CustomerService.java
+C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\controller\CustuerWebModel.java
 C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\Dao\CustomerDao.java
-C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\controller\Index.java
 C:\NewStart\parent\manager\src\main\java\manager\com\base\Customer.java
 C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\vo\CustomerQuery.java
+C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\controller\CustomerController.java
 C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\Client.java
 C:\NewStart\parent\manager\src\main\java\com\ispmj\lv\manager\service\ICustomerService.java
